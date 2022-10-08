@@ -60,8 +60,8 @@
 最后，我们通过[虚拟形象建模网站readplayer](https://readyplayer.me/hub)来表示我们的成员形象
 
 ### 未解决的问题
-～
+目前搭建的网页没有顶栏
+未来考虑使用html实现更出色的UI和更灵活的交互
 
-
-##Fusion 360
+## Fusion 360
 
