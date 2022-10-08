@@ -28,11 +28,18 @@
 ## Website Setup
 ### 网站搭建的基本理解
 第一节课，我们学习了网站的搭建
-网站搭建原理可以参考notion网站。notion是一款功能强大的笔记网站，其强大功能之一就是数据库和对应的呈现。如图，database以表格的形式储存，表格的不同维度代表不同的标签、分类，而数据呈现的view可以选择画廊形式、TODO形式、表格形式等等。
+网站搭建原理可以参考notion网站
+> notion是一款功能强大的笔记网站，其强大功能之一就是数据库和对应的呈现。如图，database以表格的形式储存，表格的不同维度代表不同的标签、分类，而数据呈现的view可以选择画廊形式、TODO形式、表格形式等等。
+> 
 ![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081920298.png)
 ![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081920796.png)
+
 对于本节课而言，我们将数据储存在github上（包括图片、文本等），经过html/markdown语言的翻译，成为网页架构。
-在实际操作中，我们需要经历在github上建立数据库->利用github desktop进行本地下载->通过visual studio code进行本地编辑->上传和html编译。
+在实际操作中，我们需要经历：
+* github上建立数据库
+* 利用github desktop进行本地下载
+* 通过visual studio code进行本地编辑
+* 上传和html编译。
 
 ### 网站搭建遇到的问题
 整个过程中，我们组很多学生都遇到了相同的问题：文档初始化（npm i docsify-cli -g）的部分在终端里报错了。
@@ -44,7 +51,10 @@
 
 ### 图片上传的基本原理
 图床和图片上传我们在之前就遇到过。有一些较为老旧的论坛网站是没有图片上传功能的，此时有需要的用户会通过网络图床+html代码粘贴的方式实现图片呈现。PicGo的原理本质上也是相同的。
-在实际操作中，我们首先要对图床也就是Github进行基本设置->在上传区对图片进行上传->去相册里复制对应格式的代码。
+在实际操作中，我们需要进行以下步骤：
+* 图床的Github进行基本设置
+* 在上传区对图片进行上传
+* 去相册里复制对应格式的代码并进行粘贴
 
 ### 图片上传遇到的问题
 我们在使用PicGo时，最先遇到的问题是app无法打开。这个问题在mac上被观察到，无论如何点击图标都没有弹窗，检查应用程序也没问题，遇到问题的同学感到非常无助。
@@ -64,4 +74,16 @@
 未来考虑使用html实现更出色的UI和更灵活的交互
 
 ## Fusion 360
+### 搞定教育版本
+跟随[NexMaker网页](https://www.nexmaker.com/doc/2cad/Fusion360prepare.html)的指导，进入[Fusion 360官网](https://www.autodesk.com/products/fusion-360/free-trial)，遵循以下步骤：
+![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081953278.png)
+![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081953277.png)
+![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081953276.png)
+注册账号并开启学生审核，经过验证，日期合适的录取通知书就可以通过审核。相关邮件会在第二天就开始发放。
+![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081953273.png)
 
+
+
+
+
+## 未完待续
