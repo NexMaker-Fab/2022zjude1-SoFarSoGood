@@ -118,10 +118,13 @@
         - 设计->工程图->从动画（显示爆炸图） 
 
 #### 存在疑惑
-对于Fusion 360，我们仍然存在一些疑惑。
-    1.我们没有进行零件的装配，对相关操作和效果还不熟悉
-    2.暂时没有想起来……
+对于Fusion 360，我们仍然存在一些疑惑。比如我们没有进行零件的装配，对相关操作和效果还不熟悉
+    
 
 
 ---
-## 未完待续
+## 我们的疑惑🤔
+首先是http://localhost:3000/网站无法访问
+![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210132148063.png)
+
+其次作为网站的编辑者，我很好奇github desktop上传后，[网页没有更新](https://nexmaker-fab.github.io/2022zjude1-SoFarSoGood/#/?id=%e6%9c%aa%e5%ae%8c%e5%be%85%e7%bb%ad)但是[readme文件](https://github.com/NexMaker-Fab/2022zjude1-SoFarSoGood/tree/main/docs)更新了（虽然效果不太好），是因为什么🤔
