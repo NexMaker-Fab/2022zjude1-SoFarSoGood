@@ -96,6 +96,9 @@
 ![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210132129395.png)
 ![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210132129396.png)
 
+此外，我们还陆续制作了一些模型：
+<iframe src="https://myhub.autodesk360.com/ue2fbab8b/shares/public/SH35dfcQT936092f0e43d481daffc7373642?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 #### 相关资料
 在Fusion学习的过程中，我们遇到三个课堂上没有充分解答的问题，他们分别是：
 - **参数化建模**
