@@ -1,17 +1,22 @@
 <!-- 侧边栏 docs/_sidebar.md -->
-- Team introduce
-- Daily homework
-  - [1. PM]()
-    - [how to build web](class/1pm/1pm-web.md)
-    - introduce team
-    - introduce finial project
+- Team Introduce
+  - AboutUs
+  - Members
+- Adventure Map🗺️
+  - NO.1 Website Setup
+    - 网站搭建
+    - 网站搭建遇到的问题
+    - 图片上传
+    - 图片上传遇到的问题
+    - 关于Markdown
+    - 未解决的问题
   - [2. arduino basic]()
   - [3. CAD]()
   - [4. 3D printing]()
+- NO.2 Fusion 360
+  - 搞定教育版本
+  - Fusion初体验
+  - 相关资料
+  - 未解决的问题
 - Final project
   - topic
-  - innovation
-  - market
-  - how to design 
-  - how to make
-  - SDGs

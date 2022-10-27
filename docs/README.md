@@ -1,33 +1,32 @@
 <<<<<<< HEAD
 # 2022zjude1-SoFarSoGood
-
-## AboutUs
-
+## Team Introduce
+### AboutUs
 *So Far So Good,目前一切都好。 设计工程就像一场冒险，未知的目标、未知的过程、未知的结果，明确的只有一张模糊的藏宝图。这场探险之旅充满了未知与惊喜，我们希望用一种乐观的心态来面对未知，享受当下。*
 
-## Members
-### 🛸黄欧影
+### Members
+#### 🛸黄欧影
 ![](https://raw.githubusercontent.com/HOY78778/picstore/main/Github/img/202210081630614.jpeg)
 
-### 🧟‍♀️金可成
+#### 🧟‍♀️金可成
 ![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081917924.jpeg)
 
-### 🥑蔡雪岩
+#### 🥑蔡雪岩
 ![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081632428.jpeg)
 
-### 👻时尚
+#### 👻时尚
 ![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081804645.jpeg)
 
-### 🏄王小东
+#### 🏄王小东
 ![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081805337.png)
 
-### 🔫成加豪
+#### 🔫成加豪
 ![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081917134.jpeg)
 
 ---
 ## 冒险地图🗺️
 ### NO.1 Website Setup
-#### 网站搭建的基本理解
+#### 网站搭建
 第一节课，我们学习了网站的搭建
 网站搭建原理可以参考notion网站
 > notion是一款功能强大的笔记网站，其强大功能之一就是数据库和对应的呈现。如图，database以表格的形式储存，表格的不同维度代表不同的标签、分类，而数据呈现的view可以选择画廊形式、TODO形式、表格形式等等。
@@ -41,6 +40,7 @@
 * 利用github desktop进行本地下载
 * 通过visual studio code进行本地编辑
 * 上传和html编译。
+具体的步骤请参考[本页面](https://www.nexmaker.com/doc/1projectmanage/github&docsify.html)
 
 #### 网站搭建遇到的问题
 整个过程中，我们组很多学生都遇到了相同的问题：文档初始化（npm i docsify-cli -g）的部分在终端里报错了。
@@ -50,12 +50,13 @@
 在如此操作之后安装包下载成功了，我们又经过基本初始化，本地文件夹成功出现docs！
 ![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081935308.png)
 
-#### 图片上传的基本原理
+#### 图片上传
 图床和图片上传我们在之前就遇到过。有一些较为老旧的论坛网站是没有图片上传功能的，此时有需要的用户会通过网络图床+html代码粘贴的方式实现图片呈现。PicGo的原理本质上也是相同的。
 在实际操作中，我们需要进行以下步骤：
 * 图床的Github进行基本设置
 * 在上传区对图片进行上传
 * 去相册里复制对应格式的代码并进行粘贴
+具体的步骤请参考[本页面](https://www.nexmaker.com/doc/1projectmanage/imageuploadservice.html)
 
 #### 图片上传遇到的问题
 我们在使用PicGo时，最先遇到的问题是app无法打开。这个问题在mac上被观察到，无论如何点击图标都没有弹窗，检查应用程序也没问题，遇到问题的同学感到非常无助。
@@ -120,7 +121,7 @@
         - 设计->工程图->从设计（显示三视图&尺寸标注）
         - 设计->工程图->从动画（显示爆炸图） 
 
-#### 存在疑惑
+#### 未解决的问题
 对于Fusion 360，我们仍然存在一些疑惑。比如我们没有进行零件的装配，对相关操作和效果还不熟悉
     
 
