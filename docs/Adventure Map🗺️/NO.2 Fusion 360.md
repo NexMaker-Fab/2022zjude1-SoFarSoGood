@@ -12,8 +12,8 @@
 根据课堂内容、网络资料和个人经验，我们制作了一个简单的模型以及工程图:
 <iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH35dfcQT936092f0e4390b94c39dc142d51?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-这个作品参考了[介绍Fusion自动生成功能的视频](https://www.bilibili.com/video/BV1aB4y1J7AS)
-我们小组视频完整的时间轴可以[在此查看](https://www.bilibili.com/video/BV1f84y1B7CE/?vd_source=63ceb0060c74654e0fbfd45d11c1224b)
+这个作品参考了[介绍Fusion自动生成功能的视频](https://www.bilibili.com/video/BV1aB4y1J7AS)  
+我们小组视频完整的时间轴可以[在此查看](https://www.bilibili.com/video/BV1f84y1B7CE/?vd_source=63ceb0060c74654e0fbfd45d11c1224b)  
 *视频最后几步进行了自动生成曲面的调整，在视频的视角是看不见的。
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210132129393.png"/>
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210132129395.png"/>

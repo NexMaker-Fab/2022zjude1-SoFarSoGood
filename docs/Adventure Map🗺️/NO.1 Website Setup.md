@@ -28,7 +28,7 @@
 在实际操作中，我们需要进行以下步骤：
 * 图床的Github进行基本设置
 * 在上传区对图片进行上传
-* 去相册里复制对应格式的代码并进行粘贴
+* 去相册里复制对应格式的代码并进行粘贴  
 具体的步骤请参考[本页面](https://www.nexmaker.com/doc/1projectmanage/imageuploadservice.html)
 
 ### 图片上传遇到的问题
@@ -38,7 +38,7 @@
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081937769.png"/>
 
 因为电脑版本的问题，实际设置时我们遵循了[知乎网站](https://zhuanlan.zhihu.com/p/489236769)上的步骤
-实际操作时，我们并不理解“设定存储路径”的意义，向老师询问后了解，这个路径是github上图片储存的路径。PicGo上的图片会储存在github特定的文档中，以减轻网页文件的负担
+实际操作时，我们并不理解“设定存储路径”的意义，向老师询问后了解，这个路径是github上图片储存的路径。PicGo上的图片会储存在github特定的文档中，以减轻网页文件的负担.
 
 ### 关于Markdown
 在利用Markdown搭建网站的时候，我们对成员介绍页面进行了别致的安排。  
