@@ -12,7 +12,7 @@ So Far So Good,目前一切都好。 设计工程就像一场冒险，未知的�
 ### 🧟‍♀️金可成
 
 ### 🥑蔡雪岩
-![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081632428.jpeg)
+![]()
 
 ### 👻时尚
 ![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081804645.jpeg)
