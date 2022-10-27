@@ -1,6 +1,6 @@
 # Team Introduce
 ## AboutUs
-*So Far So Good,目前一切都好。 设计工程就像一场冒险，未知的目标、未知的过程、未知的结果，明确的只有一张模糊的藏宝图。这场探险之旅充满了未知与惊喜，我们希望用一种乐观的心态来面对未知，享受当下*
+*So Far So Good,目前一切都好。 设计工程就像一场冒险，未知的目标、未知的过程、未知的结果，明确的只有一张模糊的藏宝图。这场探险之旅充满了未知与惊喜，我们希望用一种乐观的心态来面对未知，享受当下*  
 
 ## Members
 ### 🛸黄欧影
@@ -19,7 +19,8 @@
 ![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081805337.png)
 
 ### 🔫成加豪
-![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081917134.jpeg)
+![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081917134.jpeg)  
+  
 
 ---
 # Adventure Map🗺️
@@ -58,21 +59,22 @@
 
 ### 图片上传遇到的问题
 我们在使用PicGo时，最先遇到的问题是app无法打开。这个问题在mac上被观察到，无论如何点击图标都没有弹窗，检查应用程序也没问题，遇到问题的同学感到非常无助。
-实际上，我们发现PicGo在底层栏没有图标，而是在顶栏有图标。这种情况在一些mac上的小软件上是存在的（比如腾讯柠檬杀毒软件）。
+实际上，我们发现PicGo在底层栏没有图标，而是在顶栏有图标。这种情况在一些mac上的小软件上是存在的（比如腾讯柠檬杀毒软件）。  
+
 ![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081937769.png)
 
 因为电脑版本的问题，实际设置时我们遵循了[知乎网站](https://zhuanlan.zhihu.com/p/489236769)上的步骤
 实际操作时，我们并不理解“设定存储路径”的意义，向老师询问后了解，这个路径是github上图片储存的路径。PicGo上的图片会储存在github特定的文档中，以减轻网页文件的负担
 
 ### 关于Markdown
-在利用Markdown搭建网站的时候，我们对成员介绍页面进行了别致的安排。
-首先，我们找到包含[Markdown语言网](https://markdown.com.cn/basic-syntax/htmls.html)，利用上面的指南进行编写。
-其次，我们利用[emoji网站](https://emojipedia.org/woman-zombie/)获取对应emoji的代码。
-最后，我们通过[虚拟形象建模网站readplayer](https://readyplayer.me/hub)来表示我们的成员形象
+在利用Markdown搭建网站的时候，我们对成员介绍页面进行了别致的安排。  
+首先，我们找到包含[Markdown语言网](https://markdown.com.cn/basic-syntax/htmls.html)，利用上面的指南进行编写。  
+其次，我们利用[emoji网站](https://emojipedia.org/woman-zombie/)获取对应emoji的代码。  
+最后，我们通过[虚拟形象建模网站readplayer](https://readyplayer.me/hub)来表示我们的成员形象  
 
 ### 未解决的问题
-目前搭建的网页没有顶栏
-未来考虑使用html实现更出色的UI和更灵活的交互
+- [x] 目前搭建的网页没有顶栏
+- [ ] 未来考虑使用html实现更出色的UI和更灵活的交互
 
 ## NO.2 Fusion 360
 ### 搞定教育版本
@@ -121,14 +123,15 @@
 
 ### 未解决的问题
 对于Fusion 360，我们仍然存在一些疑惑。比如我们没有进行零件的装配，对相关操作和效果还不熟悉
-    
 
+
+---
 # Final project
+
 
 
 ---
 # 我们的疑惑🤔
-首先是http://localhost:3000/网站无法访问
+http://localhost:3000/网站无法访问
 ![](https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210132148063.png)
 
-其次作为网站的编辑者，我很好奇github desktop上传后，[网页没有更新](https://nexmaker-fab.github.io/2022zjude1-SoFarSoGood/#/?id=%e6%9c%aa%e5%ae%8c%e5%be%85%e7%bb%ad)但是[readme文件](https://github.com/NexMaker-Fab/2022zjude1-SoFarSoGood/tree/main/docs)更新了（虽然效果不太好），是因为什么🤔
