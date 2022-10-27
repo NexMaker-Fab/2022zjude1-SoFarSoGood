@@ -1,5 +1,5 @@
 <!-- 顶栏 docs/_sidebar.md -->
-* [Team Introduce](https://nexmaker-fab.github.io/2022zjude1-SoFarSoGood/#/?id=team-introduce)
+* [TeamIntroduce](TeamIntroduce.md)
   * [AboutUs](https://nexmaker-fab.github.io/2022zjude1-SoFarSoGood/#/?id=aboutus)
   * [Members](https://nexmaker-fab.github.io/2022zjude1-SoFarSoGood/#/?id=members)
 * [Adventure Map🗺️](https://nexmaker-fab.github.io/2022zjude1-SoFarSoGood/#/?id=adventure-map%f0%9f%97%ba%ef%b8%8f)
