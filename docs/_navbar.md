@@ -1,5 +1,5 @@
 <!-- 顶栏 docs/_sidebar.md -->
-* TeamIntroduce
+* Team Introduce
   * AboutUs
   * Members
 * Adventure Map🗺️
