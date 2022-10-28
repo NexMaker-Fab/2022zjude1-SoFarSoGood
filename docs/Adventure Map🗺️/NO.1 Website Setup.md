@@ -12,15 +12,14 @@
 * github上建立数据库
 * 利用github desktop进行本地下载
 * 通过visual studio code进行本地编辑
-* 上传和html编译。
+* 上传和html编译。  
 具体的步骤请参考[本页面](https://www.nexmaker.com/doc/1projectmanage/github&docsify.html)
 
 ### 网站搭建遇到的问题
 整个过程中，我们组很多学生都遇到了相同的问题：文档初始化（npm i docsify-cli -g）的部分在终端里报错了。
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081936086.png"/>
-经过网络查询，我们了解到可能是安装包和mac系统的不兼容（因为问题多发于mac系统），具体参见[网站](https://blog.csdn.net/Sunny_lxm/article/details/105642296)
-网上给出的解决方案是在命令行之前加上sudo语句，并在之后输入个人密码。
-在如此操作之后安装包下载成功了，我们又经过基本初始化，本地文件夹成功出现docs！
+经过网络查询，我们了解到可能是安装包和mac系统的不兼容（因为问题多发于mac系统），具体参见[此博客](https://blog.csdn.net/Sunny_lxm/article/details/105642296)。
+网上给出的解决方案是在命令行之前加上sudo语句，并在之后输入个人密码。在如此操作之后安装包下载成功，我们又经过基本初始化，本地文件夹成功出现docs！
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081935308.png"/>
 
 ### 图片上传
@@ -28,7 +27,7 @@
 在实际操作中，我们需要进行以下步骤：
 * 图床的Github进行基本设置
 * 在上传区对图片进行上传
-* 去相册里复制对应格式的代码并进行粘贴  
+* 去相册里复制对应格式的代码并进行粘贴   
 具体的步骤请参考[本页面](https://www.nexmaker.com/doc/1projectmanage/imageuploadservice.html)
 
 ### 图片上传遇到的问题
@@ -37,14 +36,14 @@
 
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210081937769.png"/>
 
-因为电脑版本的问题，实际设置时我们遵循了[知乎网站](https://zhuanlan.zhihu.com/p/489236769)上的步骤
+因为电脑版本的问题，实际设置时我们遵循了[知乎网站](https://zhuanlan.zhihu.com/p/489236769)上的步骤。  
 实际操作时，我们并不理解“设定存储路径”的意义，向老师询问后了解，这个路径是github上图片储存的路径。PicGo上的图片会储存在github特定的文档中，以减轻网页文件的负担.
 
 ### 关于Markdown
 在利用Markdown搭建网站的时候，我们对成员介绍页面进行了别致的安排。  
 首先，我们找到包含[Markdown语言网](https://markdown.com.cn/basic-syntax/htmls.html)，利用上面的指南进行编写。  
 其次，我们利用[emoji网站](https://emojipedia.org/woman-zombie/)获取对应emoji的代码。  
-最后，我们通过[虚拟形象建模网站readplayer](https://readyplayer.me/hub)来表示我们的成员形象  
+最后，我们通过[虚拟形象建模网站readplayer](https://readyplayer.me/hub)来表示我们的成员形象。  
 
 ### 未解决的问题
 - [x] 目前搭建的网页没有顶栏
