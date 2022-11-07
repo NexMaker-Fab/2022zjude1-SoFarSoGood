@@ -61,6 +61,7 @@ micro: bit支持JavaScript 模块编辑器，Python 编辑器，也可以用安�
 • 降低入门门槛
 学习纯软件编程可能需要学习非常深入才能做一个可玩有意义的东西。前期对时间和精力的投入，让你会有99.9%的可能性从入门放放弃。而这个主板能即刻执行你编写的程序，即使只是一句点亮LED的代码，及时的反馈能帮助你坚持学习和激发创造的灵感。
 <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175236.png"/>
+
 <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175251.png"/>
 
 
