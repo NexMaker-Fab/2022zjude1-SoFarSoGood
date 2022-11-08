@@ -2,8 +2,8 @@
 ### Arduino简介
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217686.png"/>
 
-Arduino 是一个开源嵌入式硬件平台，用来供使用者制作可交互式的嵌入式项目。
-Arduino 项目[始于2005年](https://web.archive.org/web/20220424201949/https://ieeexplore.ieee.org/document/6750433)，作为意大利伊夫雷亚地区伊夫雷亚交互设计研究所的学生项目，目的是为新手和专业人员提供一种低成本且简单的方法，以创建使用传感器与环境相互作用的设备执行器。
+Arduino 是一个开源嵌入式硬件平台，用来供使用者制作可交互式的嵌入式项目。  
+Arduino 项目[始于2005年](https://web.archive.org/web/20220424201949/https://ieeexplore.ieee.org/document/6750433)，作为意大利伊夫雷亚地区伊夫雷亚交互设计研究所的学生项目，目的是为新手和专业人员提供一种低成本且简单的方法，以创建使用传感器与环境相互作用的设备执行器。  
 软件编程方面，通常使用C/C++編程語言，官方提供了一个[Arduino IDE网站](https://www.arduino.cc/)用于开发。
 
 ### 其他开源软件
@@ -12,18 +12,19 @@ Arduino 项目[始于2005年](https://web.archive.org/web/20220424201949/https:/
 #### 1.树莓派 Raspberry Pi
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217376.png"/>
 
-树莓派 Raspberry Pi是 英国树莓派基金会开发的微型单板计算机，目的是以低价硬件及自由软件促进学校的基本电脑科学教育。其官方网站为https://www.raspberrypi.org/。
-相比Arduino，树莓派提供更高性能的处理能力，可以轻松实现I/O控制、高速数据通信、视频处理、实时运算等，创客可以在Debian Linux环境下编程，实现各种过去需要在PC环境实现的功能。
+树莓派 Raspberry Pi是 英国树莓派基金会开发的微型单板计算机，目的是以低价硬件及自由软件促进学校的基本电脑科学教育。其官方网站为https://www.raspberrypi.org/。  
+相比Arduino，树莓派提供更高性能的处理能力，可以轻松实现I/O控制、高速数据通信、视频处理、实时运算等，创客可以在Debian Linux环境下编程，实现各种过去需要在PC环境实现的功能。  
 **树莓派的独特优势：**
-树莓派仅有信用卡大小，可以直接插入到电视中。
-传统电脑平替，实现文字处理、电子表格和游戏等功能。
-运算能力强大，适配众多热门编程语言（Python、Java、C/C++等），可搭载的Linux或Windows系统。
+- 树莓派仅有信用卡大小，可以直接插入到电视中。
+- 传统电脑平替，实现文字处理、电子表格和游戏等功能。
+- 运算能力强大，适配众多热门编程语言（Python、Java、C/C++等），可搭载的Linux或Windows系统。
 因此，涉及到人工智能、人脸识别等需要高运算力的功能开发时。树莓派会成为比较合适的选择。
-只有树莓派能做的：机器视觉、视频解码、3D游戏等。
-**劣势：**
-Arduino对于传感器和硬件都是随插随用，树莓派在使用传感器前需要安装与之匹配的驱动程序以及编写程序才能控制硬件。
-硬件控制需要的系统和操作复杂。Arduino直接编写程序代码就能完成指令，树莓派需要安装操作系统后，安装代码库来控制GPIO引脚（硬件链接处）才能实现对硬件的控制。
-Arduino只需要输入几行代码就能轻松完成的工作，树莓派需要数小时才能完成。
+- 只有树莓派能做的：机器视觉、视频解码、3D游戏等。  
+
+**劣势：**  
+- Arduino对于传感器和硬件都是随插随用，树莓派在使用传感器前需要安装与之匹配的驱动程序以及编写程序才能控制硬件。
+- 硬件控制需要的系统和操作复杂。Arduino直接编写程序代码就能完成指令，树莓派需要安装操作系统后，安装代码库来控制GPIO引脚（硬件链接处）才能实现对硬件的控制。
+- Arduino只需要输入几行代码就能轻松完成的工作，树莓派需要数小时才能完成。
 <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175029.png"/>
 <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221107113933.png"/>
 
