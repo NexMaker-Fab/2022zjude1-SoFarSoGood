@@ -12,7 +12,7 @@ Arduino 项目[始于2005年](https://web.archive.org/web/20220424201949/https:/
 #### 1.树莓派 Raspberry Pi
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217376.png"/>
 
-树莓派 Raspberry Pi是 英国树莓派基金会开发的微型单板计算机，目的是以低价硬件及自由软件促进学校的基本电脑科学教育。其官方网站为https://www.raspberrypi.org/。   
+树莓派 Raspberry Pi是 英国树莓派基金会开发的微型单板计算机，目的是以低价硬件及自由软件促进学校的基本电脑科学教育。其官方网站为https://www.raspberrypi.org/ 。   
 相比Arduino，树莓派提供更高性能的处理能力，可以轻松实现I/O控制、高速数据通信、视频处理、实时运算等，创客可以在Debian Linux环境下编程，实现各种过去需要在PC环境实现的功能。   
 **树莓派的独特优势：**  
 - 树莓派仅有信用卡大小，可以直接插入到电视中。
@@ -33,27 +33,27 @@ Arduino 项目[始于2005年](https://web.archive.org/web/20220424201949/https:/
 #### 2.狗板 BeagleBone
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217375.png"/>
 
-BeagleBone是为喜爱嵌入式Linux系统的玩家量身打造的产品，其价格低廉，硬件扩展性强。其官方网站为：https://beagleboard.org/bone，汇聚了Beagle的介绍、教程与相关项目。  
-**狗板能做什么？**   
+BeagleBone是为喜爱嵌入式Linux系统的玩家量身打造的产品，其价格低廉，硬件扩展性强。其官方网站为：https://beagleboard.org/bone ，汇聚了Beagle的介绍、教程与相关项目。  
+**狗板能做什么？**    
 BeagleBone拥有Arduino良好的可扩展性，兼具Raspberry Pi快速处理器和Linux灵活的开发环境。因为它的输入输功能完善，并便于接入网络，所以我们可以通过Web端监测它回传的数据。BeagleBoard有一个更大，性能更强的版本——BeagleBoard。如果你需要更强的扩展性，那么BeagleBoard是一个不错的选择。BeagleBone还可以当做BeagleBoard或Beagleboard-xM的外接USB或网络扩展模块。
 
 <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221107114051.png"/>
 
-**狗板适合哪些人群？**   
-BeagleBone能够满足包括游戏外设、家庭和工业自动化、消费类医疗器械、打印机、智能收费与称重系统、教育终端和高级玩具等在内的各个领域的不同需求。
-beaglebone 无疑是树莓派的最佳竞争者，对于树莓派来说可能个人玩家更多，很多天马行空的个人创作项目都来自树莓派，而beaglebone更多用于物联网和工业应用，因为丰富的接口更适用于这些。
+**狗板适合哪些人群？**    
+BeagleBone能够满足包括游戏外设、家庭和工业自动化、消费类医疗器械、打印机、智能收费与称重系统、教育终端和高级玩具等在内的各个领域的不同需求。   
+beaglebone无疑是树莓派的最佳竞争者，对于树莓派来说可能个人玩家更多，很多天马行空的个人创作项目都来自树莓派，而beaglebone更多用于物联网和工业应用，因为丰富的接口更适用于这些。
 
 
 #### 3.micro:bit
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217687.png"/>
 
 Micro Bit（也叫做BBC Micro Bit，或风格化为micro:bit）是基于ARM架构的嵌入式系统，由BBC设计用于英国的计算机教育。其官方网站为：https://www.microbit.org。  
-**硬件方面**
+**硬件方面**    
 micro:bit的微控制器用的是NXP KL26Z,板载低功耗蓝牙芯片nRF51822,三轴磁力计MAG3110和三轴加速度计MMA8652。
-有复位按键，显示用的25个LED,拓展的IO都有金手指引出来了。相对于Arduino,由于板子上多了蓝牙芯片和加速度传感器，磁力计，板子的可玩性提高了不少。
+有复位按键，显示用的25个LED,拓展的IO都有金手指引出来了。相对于Arduino,由于板子上多了蓝牙芯片和加速度传感器，磁力计，板子的可玩性提高了不少。    
 开发板可以与手机的蓝牙相连，实现手机与micro: bit 相互通信，还可以通过传感器做记步和指南针的实验，用上了传感器，功能更加丰富样。    
-**软件方面**
-micro: bit支持JavaScript 模块编辑器，Python 编辑器，也可以用安卓，IOS软件将应用程序通过蓝牙无线下载到micro: bit 开发板。
+**软件方面**    
+micro: bit支持JavaScript 模块编辑器，Python 编辑器，也可以用安卓，IOS软件将应用程序通过蓝牙无线下载到micro: bit 开发板。    
 用户可以选择自己觉得容易上手编程环境。像网页版micro: bit编程界面，模块化编程，支持一键下载，用起来并不难。  
 **Micro Bit的独特优势**
 - Micro Bit响应快速
@@ -73,22 +73,22 @@ micro: bit支持JavaScript 模块编辑器，Python 编辑器，也可以用安�
 
 虚谷号是一个中国原创的开源硬件平台，面向人工智能教学和Python编程学习。板内集成高性能处理器和通用单片机，内置多功能扩展接口和多种通信接口，可以看成是树莓派3与Arduino UNO的合体。其官方网站为：http://www.vvboard.com.cn/
 
-**硬件方面：**
+**硬件方面：**    
 虚谷号是一款面向人工智能教学和Python编程学习的中国原创开源硬件，板内集成了高性能处理器和通用单片机，内置多功能扩展接口和多种通信接口，为人工智能和Python编程教学提供了完整的课程资源包。同时，它具有Li nux的操作系统，又支持Arduino生态系统的各种开源硬件，这就类似于一块树莓派加一块Arduino板，而且还具备U盘模式。因此，它既可以连接上显示器、键盘鼠标成为一款独立卡片电脑，又可以通过数据线连到计算机上作为一个类似于Micro：bit的外接开源硬件  
-**软件方面：**
-虚谷号运行完整的Linux系统，同时预装了部分编程教学软件。
-虚谷号预装的是Arduino1.86版，它可以支持Arduino代码编程教学，且内置了Ardublock图形化编程工具，Ardublock类似于Mixly( 米思奇)，可以实现图形化编程，支持上传到Arduino板，实现脱机运行，支持Linux的Ardublock版本，还可以选择中文界面，并且支持的硬件类型也很多，完全可以胜任开源硬件的教学。
-虚谷号预装了Python 2.7和Python 3.5，可以方便地开展Python教学，且编程环境预装了jupyter notebook，但是jupyternotebook占有资源比较大，建议使用IDLE。如果在Windows环境安装Python，系统一般默认同时安装了IDLE，在虚谷号上可以用“sudo apt-get install idle3”完成安装，且在网络环境比较好的情况下很快就能完成。  
+**软件方面：**    
+虚谷号运行完整的Linux系统，同时预装了部分编程教学软件。   
+虚谷号预装的是Arduino1.86版，它可以支持Arduino代码编程教学，且内置了Ardublock图形化编程工具，Ardublock类似于Mixly( 米思奇)，可以实现图形化编程，支持上传到Arduino板，实现脱机运行，支持Linux的Ardublock版本，还可以选择中文界面，并且支持的硬件类型也很多，完全可以胜任开源硬件的教学。   
+虚谷号预装了Python 2.7和Python 3.5，可以方便地开展Python教学，且编程环境预装了jupyter notebook，但是jupyternotebook占有资源比较大，建议使用IDLE。如果在Windows环境安装Python，系统一般默认同时安装了IDLE，在虚谷号上可以用“sudo apt-get install idle3”完成安装，且在网络环境比较好的情况下很快就能完成。    
 <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175057.png"/>
 <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175130.png"/>
 
-**虚谷号能做什么？**
-1、Python编程：学习Python要装太多的库，借助虚谷号可以不用装任何软件，利用浏览器就能学习。
-2、人工智能体验和编程：虚谷号内置了百度AI开放平台，可以实现很多人工智能的应用，打开内置的学习笔记，既可以运行体验，也能修改代码在线编程。
-3、物联网和智能家居：作为“虚谷物联”项目的最重要组成部分，虚谷号内置了SIoT服务器和必要的库，加上GPIO功能，做物联网数据采集和远程控制非常方便。
+**虚谷号能做什么？**    
+1. Python编程：学习Python要装太多的库，借助虚谷号可以不用装任何软件，利用浏览器就能学习。
+2. 人工智能体验和编程：虚谷号内置了百度AI开放平台，可以实现很多人工智能的应用，打开内置的学习笔记，既可以运行体验，也能修改代码在线编程。
+3. 物联网和智能家居：作为“虚谷物联”项目的最重要组成部分，虚谷号内置了SIoT服务器和必要的库，加上GPIO功能，做物联网数据采集和远程控制非常方便。
 
-**虚谷号适合哪些人使用？**
-虚谷号面向高年级学生，尤其是中学生，重点关注Python的代码编程。你可以将虚谷号看成是一台“Linux电脑+Arduino”，用Linux系统处理复杂的信息，用Arduino来获取传感器信息和控制各种执行器。在虚谷号的帮助下，无论是物联网还是人工智能作品，都可以快速搭建。  
+**虚谷号适合哪些人使用？**    
+虚谷号面向高年级学生，尤其是中学生，重点关注Python的代码编程。你可以将虚谷号看成是一台“Linux电脑+Arduino”，用Linux系统处理复杂的信息，用Arduino来获取传感器信息和控制各种执行器。在虚谷号的帮助下，无论是物联网还是人工智能作品，都可以快速搭建。    
 <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175149.png"/>
 
 ### 开源硬件特点以及如何选择
@@ -99,22 +99,23 @@ micro: bit支持JavaScript 模块编辑器，Python 编辑器，也可以用安�
 - 如果你的项目需要接入外部感应设备，推荐Arduino和BeagleBone。Arduino使用的电压不同（3.3V 或者 5V），这样就可以轻易的连接到不同的外部设备。而BeagleBone只能连接3.3V的外部设备，并在某些情况下，还需要加入电阻或者其他外部电路才能连接外部设备。Arduino和BeagleBone都有模拟数字信号接口，这让你轻松的连接输出不同电压的设备。
 - 如果你是刚入门的小白，没有编程和电子基础，可以拿microbit，图形化编程，可以培养编程的思维能力，并且只要传感器多，就可以学一些基础。
 
-信息来源：https://hujiaweiyinger.lofter.com/post/1e55ea_6a6f8a
-三大主流开源硬件对比：Arduino vs BeagleBone vs Raspberr(https://hujiaweiyinger.lofter.com/post/1e55ea_6a6f8a)
-https://openprocessing.org
-http://stackoverflow.com/questions/5291769/open-framework-v-s-processing
-http://sodaplay.com/
-http://lightcycle.org/
-http://www.tom-carden.co.uk/tag/applets/page/3/
-http://www.airtightinteractive.com/category/processing/
-http://www.local-guru.net/blog/pages/processing-sketches
-http://cs.smith.edu/dftwiki/index.php/CSC220_Processing_Sketch_Examples
-http://hascanvas.com/
-http://www.local-guru.net/blog/pages/processing-sketches
-http://processingjs.nihongoresources.com/processing%20on%20the%20web/
-http://staticvoidgames.com/tutorials/deployment/basicProcessingExample
-http://www.learningprocessing.com/
-https://www.processing.org/
+信息来源：    
+https://hujiaweiyinger.lofter.com/post/1e55ea_6a6f8a    
+三大主流开源硬件对比：Arduino vs BeagleBone vs Raspberr(https://hujiaweiyinger.lofter.com/post/1e55ea_6a6f8a)     
+https://openprocessing.org    
+http://stackoverflow.com/questions/5291769/open-framework-v-s-processing    
+http://sodaplay.com/    
+http://lightcycle.org/       
+http://www.tom-carden.co.uk/tag/applets/page/3/     
+http://www.airtightinteractive.com/category/processing/       
+http://www.local-guru.net/blog/pages/processing-sketches      
+http://cs.smith.edu/dftwiki/index.php/CSC220_Processing_Sketch_Examples     
+http://hascanvas.com/     
+http://www.local-guru.net/blog/pages/processing-sketches     
+http://processingjs.nihongoresources.com/processing%20on%20the%20web/      
+http://staticvoidgames.com/tutorials/deployment/basicProcessingExample      
+http://www.learningprocessing.com/       
+https://www.processing.org/     
 
 
 ### 实践项目-LCD屏显示文字
@@ -136,4 +137,4 @@ https://www.processing.org/
 
 2. 显示屏不显示文字的问题  
 将滑动变阻器逆时针转到底之后，屏幕上的方格开始出现，但是显示了没有意义的乱码。  
-将arduino板重启后，内容正常显示。
+将arduino板重启后，内容正常显示。 
