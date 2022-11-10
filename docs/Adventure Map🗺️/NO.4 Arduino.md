@@ -1,3 +1,25 @@
+## NO.4 Arduino
+### Arduino简介
+<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217686.png"/>
+
+Arduino 是一个开源嵌入式硬件平台，用来供使用者制作可交互式的嵌入式项目。   
+Arduino 项目[始于2005年](https://web.archive.org/web/20220424201949/https://ieeexplore.ieee.org/document/6750433)，作为意大利伊夫雷亚地区伊夫雷亚交互设计研究所的学生项目，目的是为新手和专业人员提供一种低成本且简单的方法，以创建使用传感器与环境相互作用的设备执行器。   
+软件编程方面，通常使用C/C++編程語言，官方提供了一个[Arduino IDE网站](https://www.arduino.cc/)用于开发。    
+
+#### Arduino安装中遇到的问题
+由于学校提供的是创客主板，需要下载驱动才能在arduino“工具”一栏中显示端口。但是主板本身的说明书并没有提供mac电脑的驱动安装方式。再加上我们组员在过去遇到过类似的情况，所以我们在网络上寻找解决方法。    
+我们找的的[案例](https://blog.csdn.net/HappyLittleMouse/article/details/99706032)是针对ATmega8板子的，不过经过实验可以成功。    
+1. **下载VCP驱动**
+   驱动可以在[VCP官方网站](https://ftdichip.com/drivers/vcp-drivers/)上下载，只要选择对应的系统即可。
+   <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211101742465.png"/>
+
+2. **电脑安装**
+   需要注意的是，对于最新的mac电脑，下载安装的是Beta版本的驱动。
+   <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211101742301.png"/>
+   不同于普通安装方式，这个dmg文件下载后，需要先打开找到Installer软件，拖入应用程序中双击打开，然后跟着弹窗指示开放权限即可。成功安装之后再连接创客主板，就能看到Arduino的端口了。
+   <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211101742760.png"/>
+
+----
 ### 其他开源软件
 <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105174958.png"/>
 
@@ -108,3 +130,137 @@ http://processingjs.nihongoresources.com/processing%20on%20the%20web/
 http://staticvoidgames.com/tutorials/deployment/basicProcessingExample      
 http://www.learningprocessing.com/       
 https://www.processing.org/     
+
+----
+### 实践项目-LCD屏显示文字
+我们按照[Nexmaker网站](https://www.nexmaker.com/doc/5arduino/Arduino_output.html)里的示意图和代码，还原了LCD屏显示“Hello World”的项目。
+最终效果如图所示，涉及的图片和代码不再赘述。
+<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061136030.jpeg"/>
+为了有趣，我们对代码进行了简单的改动，让LCD屏显示我们的组名：
+<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061135951.jpeg"/>
+我们连接的线路如图
+<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061136579.jpeg"/>
+<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061136472.png"/>
+
+使用的代码如下
+<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061136377.png"/>
+
+#### 遇到的问题与解决
+1. 显示屏闪烁的问题  
+在此过程中，我们一开始遇到显示屏闪烁的情况。  
+检查后发现是某根线接口出现松动，同时RW线未连接。  
+
+2. 显示屏不显示文字的问题  
+将滑动变阻器逆时针转到底之后，屏幕上的方格开始出现，但是显示了没有意义的乱码。  
+将arduino板重启后，内容正常显示。  
+
+---
+### 实践项目-LCD屏显示障碍物距离
+我们结合Nexmaker网站中的[LCD屏幕显示案例](https://www.nexmaker.com/doc/5arduino/Arduino_output.html)和[超声波测距案例](https://www.nexmaker.com/doc/5arduino/Arduino_Input.html)，制作了LCD屏显示障碍物距离的硬件。   
+其连接线路如图：   
+<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211101727473.jpeg"/>
+<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211101727645.png"/>
+最终呈现的结果可以通过[此链接🔗](https://b23.tv/67iPBWi)看到。    
+我们最后使用的代码如下：    
+<pre> 
+/*LiquidCrystal Library - Hello World
+Demonstrates the use a 16x2 LCD display. The LiquidCrystal
+library works with all LCD displays that are compatible with the
+Hitachi HD44780 driver. There are many of them out there, and you
+can usually tell them by the 16-pin interface.
+This sketch prints "Hello World!" to the LCD
+and shows the time.
+The circuit:
+* LCD RS pin to digital pin 12
+* LCD Enable pin to digital pin 11
+* LCD D4 pin to digital pin 5
+* LCD D5 pin to digital pin 4
+* LCD D6 pin to digital pin 3
+* LCD D7 pin to digital pin 2
+* LCD R/W pin to ground
+* LCD VSS pin to ground
+* LCD VCC pin to 5V
+* 10K resistor:
+* ends to +5V and ground
+* wiper to LCD VO pin (pin 3)
+Library originally added 18 Apr 2008
+by David A. Mellis
+library modified 5 Jul 2009
+by Limor Fried (http://www.ladyada.net)
+example added 9 Jul 2009
+by Tom Igoe
+modified 22 Nov 2010
+by Tom Igoe
+This example code is in the public domain.
+http://www.arduino.cc/en/Tutorial/LiquidCrystal
+*/
+
+/*
+Arduino SR04
+5V --- VCC
+A0 --- Trig
+A1 --- Echo
+GND --- GND
+*/
+
+// include the library code:
+#include <LiquidCrystal.h>
+
+// initialize the library with the numbers of the interface pins
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+
+#define TrigPin A0 
+// __|^|_____________
+// 10us or more HITH SIGNAL will drive it work for one time
+
+#define EchoPin A1 
+// ______|^^^^^^^^|__ 
+// PULSE WIDTH stand for distance(the time of ultrasound transmit, both go and back)
+
+// pulse width WILL NOT long than 38ms, it means timeout
+// Distance = Speed x Time
+// Speed of sound ~= 340m/s = 0.340mm/us
+int count = 0;
+long duration;
+// PULSE WIDTH
+
+void setup() {
+    // set Serial communication
+    Serial.begin(115200);
+    // set pin mode
+    pinMode(TrigPin, OUTPUT);
+    pinMode(EchoPin, INPUT);
+    // init pin
+    digitalWrite(TrigPin, LOW);
+    // set up the LCD's number of columns and rows:
+    lcd.begin(16, 2); 
+    delay(1);
+}
+
+void loop() { 
+    // set the cursor to column 0, line 1
+    // (note: line 1 is the second row, since counting begins with 0):
+    lcd.setCursor(0, 0);
+    lcd.print("the distance is:");
+    lcd.setCursor(14, 1);
+    lcd.print("mm");
+    // Print a message to the LCD.
+    lcd.setCursor(0, 1);
+    lcd.print(getDistance() );
+
+    delay(1000);
+    lcd.clear();
+}
+
+long getDistance() {
+    // trig
+    digitalWrite(TrigPin, LOW);
+    delayMicroseconds(2);
+    digitalWrite(TrigPin, HIGH);
+    delayMicroseconds(10);
+    digitalWrite(TrigPin, LOW);
+    // echo
+    duration = pulseIn(EchoPin, HIGH); // unit: us
+    return duration * 0.34029 / 2; // unit: mm
+}</pre>
+
