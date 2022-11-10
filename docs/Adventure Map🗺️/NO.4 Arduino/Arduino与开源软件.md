@@ -1,11 +1,3 @@
-## NO.4 Arduino
-### Arduino简介
-<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217686.png"/>
-
-Arduino 是一个开源嵌入式硬件平台，用来供使用者制作可交互式的嵌入式项目。  
-Arduino 项目[始于2005年](https://web.archive.org/web/20220424201949/https://ieeexplore.ieee.org/document/6750433)，作为意大利伊夫雷亚地区伊夫雷亚交互设计研究所的学生项目，目的是为新手和专业人员提供一种低成本且简单的方法，以创建使用传感器与环境相互作用的设备执行器。  
-软件编程方面，通常使用C/C++編程語言，官方提供了一个[Arduino IDE网站](https://www.arduino.cc/)用于开发。
-
 ### 其他开源软件
 <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105174958.png"/>
 
@@ -116,25 +108,3 @@ http://processingjs.nihongoresources.com/processing%20on%20the%20web/
 http://staticvoidgames.com/tutorials/deployment/basicProcessingExample      
 http://www.learningprocessing.com/       
 https://www.processing.org/     
-
-
-### 实践项目-LCD屏显示文字
-我们按照[Nexmaker网站](https://www.nexmaker.com/doc/5arduino/Arduino_output.html)里的示意图和代码，还原了LCD屏显示“Hello World”的项目.
-最终效果如图所示，涉及的图片和代码不再赘述。
-<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061136030.jpeg"/>
-为了有趣，我们对代码进行了简单的改动，让LCD屏显示我们的组名
-<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061135951.jpeg"/>
-我们连接的线路如图
-<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061136472.png"/>
-<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061136579.jpeg"/>
-使用的代码如下
-<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061136377.png"/>
-
-#### 遇到的问题与解决
-1. 显示屏闪烁的问题  
-在此过程中，我们一开始遇到显示屏闪烁的情况。  
-检查后发现是某根线接口出现松动，同时RW线未连接。  
-
-2. 显示屏不显示文字的问题  
-将滑动变阻器逆时针转到底之后，屏幕上的方格开始出现，但是显示了没有意义的乱码。  
-将arduino板重启后，内容正常显示。 
