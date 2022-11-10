@@ -5,10 +5,7 @@
   * [NO.1 Website Setup](Adventure%20Map🗺️/NO.1%20Website%20Setup.md)
   * [NO.2 Fusion 360](Adventure%20Map🗺️/NO.2%20Fusion%20360.md)
   * [NO.3 Processing](Adventure%20Map🗺️/NO.3%20Processing.md)
-  * NO.4 Arduino
-    * [About Arduino](Adventure%20Map🗺️/NO.4%20Arduino/关于Arduino.md)
-    * [其他开源软件](Adventure%20Map🗺️/NO.4%20Arduino/Arduino与开源软件.md)
-    * [相关项目实践](Adventure%20Map🗺️/NO.4%20Arduino/Arduino相关项目.md)
+  * [NO.4 Arduino](Adventure%20Map🗺️/NO.4%20Arduino/关于Arduino.md)   
 * **Final project📜**
   * [基本介绍](Final%20project📜/基本介绍.md)
   * [前期方案](Final%20project📜/前期方案.md)
