@@ -1,5 +1,5 @@
 ## NO.4 Arduino
-### Arduino简介
+### 【1】Arduino简介
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217686.png"/>
 
 Arduino 是一个开源嵌入式硬件平台，用来供使用者制作可交互式的嵌入式项目。   
@@ -20,7 +20,7 @@ Arduino 项目[始于2005年](https://web.archive.org/web/20220424201949/https:/
    <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211101742760.png"/>
 
 ----
-### 其他开源软件
+### 【2】其他开源软件
 <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105174958.png"/>
 
 #### 1.树莓派 Raspberry Pi
@@ -105,7 +105,7 @@ micro: bit支持JavaScript 模块编辑器，Python 编辑器，也可以用安�
 虚谷号面向高年级学生，尤其是中学生，重点关注Python的代码编程。你可以将虚谷号看成是一台“Linux电脑+Arduino”，用Linux系统处理复杂的信息，用Arduino来获取传感器信息和控制各种执行器。在虚谷号的帮助下，无论是物联网还是人工智能作品，都可以快速搭建。    
 <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175149.png"/>
 
-### 开源硬件特点以及如何选择
+#### 开源硬件特点以及如何选择
 - 如果开发的产品需要保证尺寸较小，推荐Arduino。Arduino的款式多样，但让Arduino区别于其他平台的特性在于，它拥有特别的微处理器，以及一些软件。它使用Atmel公司的一款微处理器嵌入式系统，体积小，价格实惠。对于那些需要尺寸非常小巧的项目来说，你可以花费1到2美元购买Atmel的这些芯片，并使用Arduino Bootloader（一个赋予Arduino基本功能的程序），安装后，你就又拥有了一个Arduino。
 - 对于需要电池供电的项目，推荐Arduino。Arduino功耗是最低地。但是Arduino拥有更广泛的空间，因为他可以和很多不同的输入电压的设备一起工作。这样就要求Arduino需要使用不同型号的电池，并且就算电池没电也能继续运转。Arduino是一个扩展性很好的平台，便于与各种设备交互。对于初学者来说，在进行一些小型项目时，它是绝佳的选择。
 - 如果需要支持用户界面，推荐使用Raspberry Pi。因为它拥有一个HDMI输出。这意味着，你可以接入键鼠和直接接入到你的电视。在这点看来，你拥有了一台功能全备的电脑，并且拥有用户操作界面。这样使得Raspberry Pi可以用于在需要与用户交互的项目中，以低成本构建web浏览设备。事实上，只是出于娱乐性质，我们把Arduino开发工具安装在Raspberry Pi上，并在Raspberry Pi写以一个简单程序并下载到Aruduino上。Raspberry Pi适合用于需要用户界面和需要网络支持的项目，其性价比较高。
@@ -132,7 +132,7 @@ http://www.learningprocessing.com/
 https://www.processing.org/     
 
 ----
-### 实践项目-LCD屏显示文字
+### 【3】实践项目-LCD屏显示文字
 我们按照[Nexmaker网站](https://www.nexmaker.com/doc/5arduino/Arduino_output.html)里的示意图和代码，还原了LCD屏显示“Hello World”的项目。
 最终效果如图所示，涉及的图片和代码不再赘述。
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061136030.jpeg"/>
@@ -155,7 +155,7 @@ https://www.processing.org/
 将arduino板重启后，内容正常显示。  
 
 ---
-### 实践项目-LCD屏显示障碍物距离
+### 【4】实践项目-LCD屏显示障碍物距离
 我们结合Nexmaker网站中的[LCD屏幕显示案例](https://www.nexmaker.com/doc/5arduino/Arduino_output.html)和[超声波测距案例](https://www.nexmaker.com/doc/5arduino/Arduino_Input.html)，制作了LCD屏显示障碍物距离的硬件。   
 其连接线路如图：   
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211101727473.jpeg"/>
