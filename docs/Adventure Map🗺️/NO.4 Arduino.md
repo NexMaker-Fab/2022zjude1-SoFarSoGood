@@ -17,14 +17,14 @@ Arduino 项目[始于2005年](https://web.archive.org/web/20220424201949/https:/
    需要注意的是，对于最新的mac电脑，下载安装的是Beta版本的驱动。
    <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211101742301.png"/>
    不同于普通安装方式，这个dmg文件下载后，需要先打开找到Installer软件，拖入应用程序中双击打开，然后跟着弹窗指示开放权限即可。成功安装之后再连接创客主板，就能看到Arduino的端口了。
-   <div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211101742760.png" width = 80%/> </div>
+   <div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211101742760.png" width = 70%/> </div>
 
 ----
 ### 【2】其他开源软件
 <div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105174958.png"> </div>
 
 #### 1.树莓派 Raspberry Pi
-<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217376.png"/>
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217376.png"> </div>
 
 树莓派 Raspberry Pi是 英国树莓派基金会开发的微型单板计算机，目的是以低价硬件及自由软件促进学校的基本电脑科学教育。其官方网站为https://www.raspberrypi.org/ 。   
 相比Arduino，树莓派提供更高性能的处理能力，可以轻松实现I/O控制、高速数据通信、视频处理、实时运算等，创客可以在Debian Linux环境下编程，实现各种过去需要在PC环境实现的功能。   
@@ -43,7 +43,7 @@ Arduino 项目[始于2005年](https://web.archive.org/web/20220424201949/https:/
 <div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221107113933.png" width = 130%/> </div>
 
 #### 2.狗板 BeagleBone
-<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217375.png" width = 200%/> </div>
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217375.png" width = 140%/> </div>
 
 BeagleBone是为喜爱嵌入式Linux系统的玩家量身打造的产品，其价格低廉，硬件扩展性强。其官方网站为：https://beagleboard.org/bone ，汇聚了Beagle的介绍、教程与相关项目。  
 **狗板能做什么？**    
