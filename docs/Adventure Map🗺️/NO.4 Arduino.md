@@ -17,11 +17,11 @@ Arduino 项目[始于2005年](https://web.archive.org/web/20220424201949/https:/
    需要注意的是，对于最新的mac电脑，下载安装的是Beta版本的驱动。
    <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211101742301.png"/>
    不同于普通安装方式，这个dmg文件下载后，需要先打开找到Installer软件，拖入应用程序中双击打开，然后跟着弹窗指示开放权限即可。成功安装之后再连接创客主板，就能看到Arduino的端口了。
-   <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211101742760.png"/>
+   <div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211101742760.png" width = 80%/> </div>
 
 ----
 ### 【2】其他开源软件
-<img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105174958.png"/>
+<div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105174958.png"> </div>
 
 #### 1.树莓派 Raspberry Pi
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217376.png"/>
@@ -39,19 +39,16 @@ Arduino 项目[始于2005年](https://web.archive.org/web/20220424201949/https:/
 - Arduino对于传感器和硬件都是随插随用，树莓派在使用传感器前需要安装与之匹配的驱动程序以及编写程序才能控制硬件。
 - 硬件控制需要的系统和操作复杂。Arduino直接编写程序代码就能完成指令，树莓派需要安装操作系统后，安装代码库来控制GPIO引脚（硬件链接处）才能实现对硬件的控制。
 - Arduino只需要输入几行代码就能轻松完成的工作，树莓派需要数小时才能完成。
-
-<img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175029.png"/>
-<img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221107113933.png"/>  
-
+<div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175029.png" width = 120%/> </div>
+<div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221107113933.png" width = 130%/> </div>
 
 #### 2.狗板 BeagleBone
-<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217375.png"/>
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217375.png" width = 200%/> </div>
 
 BeagleBone是为喜爱嵌入式Linux系统的玩家量身打造的产品，其价格低廉，硬件扩展性强。其官方网站为：https://beagleboard.org/bone ，汇聚了Beagle的介绍、教程与相关项目。  
 **狗板能做什么？**    
 BeagleBone拥有Arduino良好的可扩展性，兼具Raspberry Pi快速处理器和Linux灵活的开发环境。因为它的输入输功能完善，并便于接入网络，所以我们可以通过Web端监测它回传的数据。BeagleBoard有一个更大，性能更强的版本——BeagleBoard。如果你需要更强的扩展性，那么BeagleBoard是一个不错的选择。BeagleBone还可以当做BeagleBoard或Beagleboard-xM的外接USB或网络扩展模块。
-
-<img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221107114051.png"/>
+<div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221107114051.png" width = 140%/> </div>
 
 **狗板适合哪些人群？**    
 BeagleBone能够满足包括游戏外设、家庭和工业自动化、消费类医疗器械、打印机、智能收费与称重系统、教育终端和高级玩具等在内的各个领域的不同需求。   
@@ -59,7 +56,7 @@ beaglebone无疑是树莓派的最佳竞争者，对于树莓派来说可能个�
 
 
 #### 3.micro:bit
-<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217687.png"/>
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217687.png" width = 250%/> </div>
 
 Micro Bit（也叫做BBC Micro Bit，或风格化为micro:bit）是基于ARM架构的嵌入式系统，由BBC设计用于英国的计算机教育。其官方网站为：https://www.microbit.org。  
 **硬件方面**    
@@ -77,13 +74,13 @@ micro: bit支持JavaScript 模块编辑器，Python 编辑器，也可以用安�
 - 降低入门门槛
 学习纯软件编程可能需要学习非常深入才能做一个可玩有意义的东西。前期对时间和精力的投入，让你会有99.9%的可能性从入门放放弃。而这个主板能即刻执行你编写的程序，即使只是一句点亮LED的代码，及时的反馈能帮助你坚持学习和激发创造的灵感。  
 
-<img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175236.png"/>
+<div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175236.png"> </div>
 
-<img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175251.png"/>
+<div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175251.png"> </div>
 
 
 #### 4.虚谷号
-<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217684.jpeg"/>
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217684.jpeg" width = 250%/> </div>
 
 虚谷号是一个中国原创的开源硬件平台，面向人工智能教学和Python编程学习。板内集成高性能处理器和通用单片机，内置多功能扩展接口和多种通信接口，可以看成是树莓派3与Arduino UNO的合体。其官方网站为：http://www.vvboard.com.cn/
 
@@ -93,8 +90,11 @@ micro: bit支持JavaScript 模块编辑器，Python 编辑器，也可以用安�
 虚谷号运行完整的Linux系统，同时预装了部分编程教学软件。   
 虚谷号预装的是Arduino1.86版，它可以支持Arduino代码编程教学，且内置了Ardublock图形化编程工具，Ardublock类似于Mixly( 米思奇)，可以实现图形化编程，支持上传到Arduino板，实现脱机运行，支持Linux的Ardublock版本，还可以选择中文界面，并且支持的硬件类型也很多，完全可以胜任开源硬件的教学。   
 虚谷号预装了Python 2.7和Python 3.5，可以方便地开展Python教学，且编程环境预装了jupyter notebook，但是jupyternotebook占有资源比较大，建议使用IDLE。如果在Windows环境安装Python，系统一般默认同时安装了IDLE，在虚谷号上可以用“sudo apt-get install idle3”完成安装，且在网络环境比较好的情况下很快就能完成。    
-<img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175057.png"/>
-<img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175130.png"/>
+
+<div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175057.png"> </div>
+
+<div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175130.png"> </div>
+
 
 **虚谷号能做什么？**    
 1. Python编程：学习Python要装太多的库，借助虚谷号可以不用装任何软件，利用浏览器就能学习。
@@ -102,8 +102,9 @@ micro: bit支持JavaScript 模块编辑器，Python 编辑器，也可以用安�
 3. 物联网和智能家居：作为“虚谷物联”项目的最重要组成部分，虚谷号内置了SIoT服务器和必要的库，加上GPIO功能，做物联网数据采集和远程控制非常方便。
 
 **虚谷号适合哪些人使用？**    
-虚谷号面向高年级学生，尤其是中学生，重点关注Python的代码编程。你可以将虚谷号看成是一台“Linux电脑+Arduino”，用Linux系统处理复杂的信息，用Arduino来获取传感器信息和控制各种执行器。在虚谷号的帮助下，无论是物联网还是人工智能作品，都可以快速搭建。    
-<img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175149.png"/>
+虚谷号面向高年级学生，尤其是中学生，重点关注Python的代码编程。你可以将虚谷号看成是一台“Linux电脑+Arduino”，用Linux系统处理复杂的信息，用Arduino来获取传感器信息和控制各种执行器。在虚谷号的帮助下，无论是物联网还是人工智能作品，都可以快速搭建。  
+<div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175149.png" width = 140%> </div>  
+
 
 #### 开源硬件特点以及如何选择
 - 如果开发的产品需要保证尺寸较小，推荐Arduino。Arduino的款式多样，但让Arduino区别于其他平台的特性在于，它拥有特别的微处理器，以及一些软件。它使用Atmel公司的一款微处理器嵌入式系统，体积小，价格实惠。对于那些需要尺寸非常小巧的项目来说，你可以花费1到2美元购买Atmel的这些芯片，并使用Arduino Bootloader（一个赋予Arduino基本功能的程序），安装后，你就又拥有了一个Arduino。
