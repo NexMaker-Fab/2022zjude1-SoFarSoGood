@@ -43,7 +43,7 @@ Arduino 项目[始于2005年](https://web.archive.org/web/20220424201949/https:/
 <div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221107113933.png" width = 80%/> </div>
 
 #### 2.狗板 BeagleBone
-<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217375.png" width = 90%/> </div>
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217375.png" width = 80%/> </div>
 
 BeagleBone是为喜爱嵌入式Linux系统的玩家量身打造的产品，其价格低廉，硬件扩展性强。其官方网站为：https://beagleboard.org/bone ，汇聚了Beagle的介绍、教程与相关项目。  
 **狗板能做什么？**    
@@ -56,7 +56,7 @@ beaglebone无疑是树莓派的最佳竞争者，对于树莓派来说可能个�
 
 
 #### 3.micro:bit
-<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217687.png" width = 90%/> </div>
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217687.png" width = 80%/> </div>
 
 Micro Bit（也叫做BBC Micro Bit，或风格化为micro:bit）是基于ARM架构的嵌入式系统，由BBC设计用于英国的计算机教育。其官方网站为：https://www.microbit.org。  
 **硬件方面**    
@@ -80,7 +80,7 @@ micro: bit支持JavaScript 模块编辑器，Python 编辑器，也可以用安�
 
 
 #### 4.虚谷号
-<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217684.jpeg" width = 250%/> </div>
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217684.jpeg" width = 80%/> </div>
 
 虚谷号是一个中国原创的开源硬件平台，面向人工智能教学和Python编程学习。板内集成高性能处理器和通用单片机，内置多功能扩展接口和多种通信接口，可以看成是树莓派3与Arduino UNO的合体。其官方网站为：http://www.vvboard.com.cn/
 
