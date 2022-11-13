@@ -43,7 +43,7 @@ Arduino 项目[始于2005年](https://web.archive.org/web/20220424201949/https:/
 <div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221107113933.png" width = 80%/> </div>
 
 #### 2.狗板 BeagleBone
-<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217375.png" width = 70%/> </div>
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217375.png" width = 80%/> </div>
 
 BeagleBone是为喜爱嵌入式Linux系统的玩家量身打造的产品，其价格低廉，硬件扩展性强。其官方网站为：https://beagleboard.org/bone ，汇聚了Beagle的介绍、教程与相关项目。  
 **狗板能做什么？**    
