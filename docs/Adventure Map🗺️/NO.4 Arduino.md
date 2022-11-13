@@ -39,16 +39,16 @@ Arduino 项目[始于2005年](https://web.archive.org/web/20220424201949/https:/
 - Arduino对于传感器和硬件都是随插随用，树莓派在使用传感器前需要安装与之匹配的驱动程序以及编写程序才能控制硬件。
 - 硬件控制需要的系统和操作复杂。Arduino直接编写程序代码就能完成指令，树莓派需要安装操作系统后，安装代码库来控制GPIO引脚（硬件链接处）才能实现对硬件的控制。
 - Arduino只需要输入几行代码就能轻松完成的工作，树莓派需要数小时才能完成。
-<div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175029.png" width = 120%/> </div>
-<div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221107113933.png" width = 130%/> </div>
+<div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175029.png" width = 80%/> </div>
+<div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221107113933.png" width = 80%/> </div>
 
 #### 2.狗板 BeagleBone
-<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217375.png" width = 120%/> </div>
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217375.png" width = 90%/> </div>
 
 BeagleBone是为喜爱嵌入式Linux系统的玩家量身打造的产品，其价格低廉，硬件扩展性强。其官方网站为：https://beagleboard.org/bone ，汇聚了Beagle的介绍、教程与相关项目。  
 **狗板能做什么？**    
 BeagleBone拥有Arduino良好的可扩展性，兼具Raspberry Pi快速处理器和Linux灵活的开发环境。因为它的输入输功能完善，并便于接入网络，所以我们可以通过Web端监测它回传的数据。BeagleBoard有一个更大，性能更强的版本——BeagleBoard。如果你需要更强的扩展性，那么BeagleBoard是一个不错的选择。BeagleBone还可以当做BeagleBoard或Beagleboard-xM的外接USB或网络扩展模块。
-<div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221107114051.png" width = 140%/> </div>
+<div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221107114051.png" width = 80%/> </div>
 
 **狗板适合哪些人群？**    
 BeagleBone能够满足包括游戏外设、家庭和工业自动化、消费类医疗器械、打印机、智能收费与称重系统、教育终端和高级玩具等在内的各个领域的不同需求。   
@@ -56,7 +56,7 @@ beaglebone无疑是树莓派的最佳竞争者，对于树莓派来说可能个�
 
 
 #### 3.micro:bit
-<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217687.png" width = 250%/> </div>
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211052217687.png" width = 90%/> </div>
 
 Micro Bit（也叫做BBC Micro Bit，或风格化为micro:bit）是基于ARM架构的嵌入式系统，由BBC设计用于英国的计算机教育。其官方网站为：https://www.microbit.org。  
 **硬件方面**    
@@ -103,7 +103,7 @@ micro: bit支持JavaScript 模块编辑器，Python 编辑器，也可以用安�
 
 **虚谷号适合哪些人使用？**    
 虚谷号面向高年级学生，尤其是中学生，重点关注Python的代码编程。你可以将虚谷号看成是一台“Linux电脑+Arduino”，用Linux系统处理复杂的信息，用Arduino来获取传感器信息和控制各种执行器。在虚谷号的帮助下，无论是物联网还是人工智能作品，都可以快速搭建。  
-<div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175149.png" width = 140%> </div>  
+<div align=center>  <img src="https://raw.githubusercontent.com/shishang00/picstore/main/img/20221105175149.png" width = 100%> </div>  
 
 
 #### 开源硬件特点以及如何选择
