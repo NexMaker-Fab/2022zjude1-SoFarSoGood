@@ -16,3 +16,11 @@
 <div align=left>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211142121125.png" width = 80%/> </div>
 然而processing无法进行工作，打开窗口后鼠标会一直处于加载状态，也不会有对应效果。
 <div align=left>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211142121127.png" width = 80%/> </div>  
+
+更新：
+我们参考老师的方法，更改了processing里COM口的名称。  
+<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211161011870.png"/>
+尝试之后仍然是port not found： 
+<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211161012676.png"/>
+我们还将串口名称改为全名，但是依然没有变化。和其他同学交流后了解到，win系统的串口名称为“COM N”，mac系统的则不一样，那位同学换成win电脑之后尝试成功了。mac电脑的问题还有待解决。 
+<div align=left>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211161012929.png" width = 80%/> </div>  
