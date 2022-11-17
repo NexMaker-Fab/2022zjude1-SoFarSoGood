@@ -2,7 +2,7 @@
 **关于Arduino和processing互传的问题**
 在进行[nexmaker](https://www.nexmaker.com/doc/10Interface-application-programming/processingwitharduino.html)上的两个实验的时候，我们遇到了两个问题。
 
-*Q1:电脑缺少jssc最新的库*
+*Q1:电脑缺少jssc最新的库*    
 在完成arduino和processing的代码填写后，在运行时processing出现以下界面：   
 <div align=left>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211142121739.png" width = 80%/> </div>
 
@@ -10,7 +10,7 @@
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211142121738.png"/>
 
 ------
-*Q2:连接后processing无法找到端口*
+*Q2:连接后processing无法找到端口*    
 在完成jssc.jar的替换之后，我们再一次运行软件，然而processing报出新的错误：  
 <div align=left>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211142121740.png" width = 80%/> </div>
 这个问题到目前仍然没有得到解决。经过观察，我们发现arduino的串口窗户在按钮按下后出现了对应的字母： 

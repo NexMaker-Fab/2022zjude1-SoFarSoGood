@@ -265,11 +265,12 @@ long getDistance() {
     return duration * 0.34029 / 2; // unit: mm
 }</pre>
 
-----
+
+------
 ### 【5】arduino和processing的互联
 我们按照[nexmaker网站](https://www.nexmaker.com/doc/10Interface-application-programming/processingwitharduino.html)的要求进行连接.实验过程中最大的问题有两个：  
 * 分别是processing缺少最新的jssc.jar文件
-* mac电脑无法确定连接的串口名称
-当然，以上问题我们已经通过和老师沟通、网上查询的方式解决了。详见[Question1114](../Questions🤔/Question1114.md)   
+* mac电脑无法确定连接的串口名称     
+当然，以上问题我们已经通过和老师沟通、网上查询的方式解决了。详见[Question1114](../Questions🤔/Question1114.md)     
 最终，我们实验的展示视频如下：
 * [Processing按钮控制arduino的LED小灯](https://b23.tv/9Hsjq8y)
