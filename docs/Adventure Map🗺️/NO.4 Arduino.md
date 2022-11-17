@@ -272,5 +272,8 @@ long getDistance() {
 * 分别是processing缺少最新的jssc.jar文件
 * mac电脑无法确定连接的串口名称     
 当然，以上问题我们已经通过和老师沟通、网上查询的方式解决了。详见[Question1114](../Questions🤔/Question1114.md)     
-最终，我们实验的展示视频如下：
-* [Processing按钮控制arduino的LED小灯](https://b23.tv/9Hsjq8y)
+最终，我们实验的展示如下：
+* [Processing控制arduino的LED小灯](https://b23.tv/9Hsjq8y)
+    <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211171443923.jpeg"/>
+* [arduino控制processing图形](https://b23.tv/tCGHfwK)
+    <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211171443140.jpeg"/>
