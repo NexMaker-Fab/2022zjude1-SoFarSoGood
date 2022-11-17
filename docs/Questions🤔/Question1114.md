@@ -5,6 +5,7 @@
 *Q1:电脑缺少jssc最新的库*
 在完成arduino和processing的代码填写后，在运行时processing出现以下界面：   
 <div align=left>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211142121739.png" width = 80%/> </div>
+
 经过查询我们在一个[github网址](https://github.com/processing/processing4/issues/525)上找到了答案——对于m1芯片的mac电脑，这个包是没有更新的。解决方法就是在[相关网站](https://github.com/java-native/jssc/)上下载最新的jssc.jar文件并进行替换。    
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211142121738.png"/>
 
@@ -22,7 +23,7 @@
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211161011870.png"/>
 尝试之后仍然是port not found： 
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211161012676.png"/>
-我们还将串口名称改为全名，但是依然没有变化。和其他同学交流后了解到，win系统的串口名称为“COM N”，mac系统的则不一样，那位同学换成win电脑之后尝试成功了。
+我们还将串口名称改为全名，但是依然没有变化。和其他同学交流后了解到，win系统的串口名称为“COMX”，mac系统的则不一样，那位同学换成win电脑之后尝试成功了。
 <div align=left>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211161012929.png" width = 80%/> </div>
 
 
