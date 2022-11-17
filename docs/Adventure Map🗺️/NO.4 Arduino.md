@@ -265,6 +265,7 @@ long getDistance() {
     return duration * 0.34029 / 2; // unit: mm
 }</pre>
 
+----
 ### 【5】arduino和processing的互联
 我们按照[nexmaker网站](https://www.nexmaker.com/doc/10Interface-application-programming/processingwitharduino.html)的要求进行连接.实验过程中最大的问题有两个：  
 * 分别是processing缺少最新的jssc.jar文件
