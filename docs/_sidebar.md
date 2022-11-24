@@ -10,7 +10,7 @@
   * [基本介绍](Final%20project📜/基本介绍.md)
   * [前期方案](Final%20project📜/前期方案.md)
   * [方案迭代](Final%20project📜/方案迭代.md)
-  * [最终方案](Final%20project📜/最终方案.md)
+  * [中期方案](Final%20project📜/中期方案.md)
 * **Questions🤔**
   * [Question1020](Questions🤔/Question1020.md)
   * [Question1027](Questions🤔/Question1027.md)
