@@ -16,7 +16,6 @@
 * 这个作品参考了[介绍Fusion自动生成功能的视频](https://www.bilibili.com/video/BV1aB4y1J7AS)。  
 * 我们小组视频完整的时间轴可以[在此查看](https://www.bilibili.com/video/BV1f84y1B7CE/?vd_source=63ceb0060c74654e0fbfd45d11c1224b)。  
 注：视频最后几步进行了自动生成曲面的调整，在视频的视角是看不见的。
-
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210132129393.png"/>
 
 <div align=left><img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210132129395.png" width = 49%/> <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202210132129396.png" width = 49%/> </div>

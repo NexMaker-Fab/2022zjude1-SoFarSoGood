@@ -15,9 +15,6 @@ Processing的发明者最初将Processing视作一个代码素描本。因其强
 > TouchDesigner是一门[视觉化程式设计语言](https://zh.m.wikipedia.org/wiki/視覺化程式設計語言)，它采用图形化界面建立节点或OP元件并将它们相互连接，进而实现用户想要的多媒体特效。它可以被用于实现投影、虚拟现实、艺术装置控制、各类演出等功能。
 > 
 
-### Processing和其他软件/硬件的交互
-——Arduino，Kinect，OpenCV
-
 ### 用鼠标、键盘控制界面
 在相关领域，Processing有很多有趣的网站，比如[**Openprocessing**](https://openprocessing.org)，这是一个开放式的社群平台，拥有各种有趣的案例。优秀案例每周都会被推出，同时提供新手一键入门的简单案例。  
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061202482.png"/>
@@ -67,9 +64,9 @@ Processing的发明者最初将Processing视作一个代码素描本。因其强
 ----
 最终，我们实验的展示如下：
 * [Processing控制arduino的LED小灯](https://b23.tv/9Hsjq8y)
-    <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211171443923.jpeg"/>
-* [arduino控制processing图形](https://b23.tv/tCGHfwK)
-    <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211171443140.jpeg"/>
+<iframe width="315" height="560" src="//player.bilibili.com/player.html?aid=432690443&bvid=BV1ZG411F7Eb&cid=894192137&page=1" frameborder="0" allowfullscreen></iframe>
 
+* [arduino控制processing图形](https://b23.tv/tCGHfwK)
+<iframe width="315" height="560" src="//player.bilibili.com/player.html?aid=220131443&bvid=BV1e841187wZ&cid=894267741&page=1" frameborder="0" allowfullscreen></iframe>
 
 
