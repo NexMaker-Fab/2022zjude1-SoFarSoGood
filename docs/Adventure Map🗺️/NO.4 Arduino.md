@@ -136,12 +136,12 @@ https://www.processing.org/
 ### 【3】实践项目-LCD屏显示文字
 我们按照[Nexmaker网站](https://www.nexmaker.com/doc/5arduino/Arduino_output.html)里的示意图和代码，还原了LCD屏显示“Hello World”的项目。
 最终效果如图所示，涉及的图片和代码不再赘述。
-<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061136030.jpeg" width = 100%> </div>  
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061136030.jpeg" width = 80%> </div>  
 为了有趣，我们对代码进行了简单的改动，让LCD屏显示我们的组名：
-<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061135951.jpeg" width = 100%> </div>  
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061135951.jpeg" width = 80%> </div>  
 我们连接的线路如图
-<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061136579.jpeg" width = 100%> </div>  
-<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061136472.png" width = 100%> </div>  
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061136579.jpeg" width = 80%> </div>  
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211061136472.png" width = 80%> </div>  
 
 我们使用的代码如下:
 <pre> 
@@ -180,8 +180,8 @@ void loop() {
 ### 【4】实践项目-LCD屏显示障碍物距离
 我们结合Nexmaker网站中的[LCD屏幕显示案例](https://www.nexmaker.com/doc/5arduino/Arduino_output.html)和[超声波测距案例](https://www.nexmaker.com/doc/5arduino/Arduino_Input.html)，制作了LCD屏显示障碍物距离的硬件。   
 其连接线路如图：   
-<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211101727473.jpeg" width = 100%> </div>  
-<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211101727645.png" width = 100%> </div>  
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211101727473.jpeg" width = 80%> </div>  
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211101727645.png" width = 80%> </div>  
 
 最终呈现的结果可以通过[此链接🔗](https://b23.tv/67iPBWi)看到:  
 <iframe width="315" height="560" src="//player.bilibili.com/player.html?aid=859936527&bvid=BV1AG4y1f7KP&cid=887189554&page=1" frameborder="0" allowfullscreen></iframe>
