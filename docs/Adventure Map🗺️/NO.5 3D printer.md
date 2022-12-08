@@ -1,4 +1,5 @@
-<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212081413028.jpg"/>
+<img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212081420555.jpg"/>
+
 ## NO.5 3D printer
 ### 3D打印背景知识
 3D打印（3DP）是一种快速成型技术，其根据数字模型文件，运用粉末状金属或塑料等可粘合材料通过逐层打印实现物体的构造。
