@@ -53,13 +53,13 @@ width = 60%/> </div>
 <div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212081438767.png" width = 80%/> </div>  
 
 在使用原始的嵌入代码时，我们发现视频效果不好。其高度受到限制，只能展示很小的画面（尤其对于竖屏视频）。 
-<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212081441809.png" width = 80%/> </div>  
-<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212081441810.png" width = 80%/> </div>  
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212081441809.png" width = 85%/> </div>  
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212081441810.png" width = 85%/> </div>  
 
 为了解决这个问题，我们在网上寻找了很多方法，在[CSDN网站](https://blog.csdn.net/a5563184/article/details/105349728/?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0--blog-104306140.pc_relevant_aa2&spm=1001.2101.3001.4242.1&utm_relevant_index=3)上我们找到了可行的方案。我们最后使用的嵌入代码如下：   
 <pre> 
 
-<iframe width="560" height="315" src="视频框代码" frameborder="0" allowfullscreen></iframe>
+< iframe width="560" height="315" src="视频框代码" frameborder="0" allowfullscreen>< /iframe>
 
 </pre>
 
