@@ -302,13 +302,12 @@ long getDistance() {
 <div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212081537817.png" width = 80%> </div>  
    
 * Arduino Code
+
 <pre> 
 int redPin = 3;
 int greenPin = 4;
 int bluePin = 5;
-
 int c = 0;
-
 void setup()
 {
   Serial.begin(9600);  
@@ -343,15 +342,14 @@ void loop()
 </pre> 
     
 * Processing Code
+
 <pre> 
 import processing.serial.*;
 Serial port;
-
 void setup(){
   port=new Serial(this,"/dev/cu.usbserial-130",9600); //Arduino's com
   size(600,200);
 }
-
 void draw(){
   fill(255,0,0);
   rect(50,50,100,100);
@@ -362,7 +360,6 @@ void draw(){
   fill(0,0,255);
   rect(450,50,100,100);  
 }
-
 void mouseClicked(){
   if((mouseX>=50)&(mouseX<=150)&(mouseY>=50)&(mouseY<=150))
   {
@@ -387,13 +384,13 @@ void mouseClicked(){
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212081537815.png"/>
 
 * Arduino Code
+
 <pre>
 int upPin = 3;
 int downPin = 4;
 int leftPin = 5;
 int rightPin = 6; 
 int up1,down1,left1,right1;
-
 void setup() {
   pinMode(upPin,INPUT_PULLUP);
   pinMode(downPin,INPUT_PULLUP);
@@ -401,9 +398,7 @@ void setup() {
   pinMode(rightPin,INPUT_PULLUP);
   Serial.begin(9600);  
 }
-
 void loop() {
-
   up1 = digitalRead(upPin);
   down1 = digitalRead(downPin);
   left1 = digitalRead(leftPin);
@@ -430,13 +425,14 @@ void loop() {
   }
 }
 </pre>
+
 * Processing Code
+
 <pre>
 import processing.serial.*;
 Serial port;
 int a = 300;
 int b = 300;  
-
 void setup(){
   size(600,600);
   background(200,200,200);
@@ -444,7 +440,6 @@ void setup(){
   ellipse(a,b,30,30); 
   port = new Serial(this,"/dev/cu.usbserial-1130",9600);
 }
-
 void draw()
 {
   while(port.available()>0)
