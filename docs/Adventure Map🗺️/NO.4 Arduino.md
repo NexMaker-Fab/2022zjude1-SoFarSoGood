@@ -295,8 +295,8 @@ long getDistance() {
 我们按照[nexmaker网站](https://www.nexmaker.com/doc/10Interface-application-programming/processingwitharduino.html)的要求进行连接.实验过程中最大的问题有两个：  
 * 分别是processing缺少最新的jssc.jar文件
 * mac电脑无法确定连接的串口名称     
-当然，以上问题我们已经通过和老师沟通、网上查询的方式解决了。详见[Question1114](../Questions🤔/Question1114.md)     
-最终，我们实验的展示如下：
+当然，以上问题我们已经通过和老师沟通、网上查询的方式解决了。详见[Question1114](../Questions🤔/Question1114.md)；实际效果见[NO.3 processing](NO.3%20Processing.md)页面结尾视频。       
+最终，我们实验涉及的内容如下：
 #### Processing控制arduino的LED小灯
 <div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202211171443923.jpeg" width = 80%> </div>  
 <div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212081537817.png" width = 80%> </div>  
@@ -484,5 +484,3 @@ void draw()
   }
 }
 </pre>
-
-实际效果见[NO.3 processing](NO.3%20Processing.md)页面结尾视频
