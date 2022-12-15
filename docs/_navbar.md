@@ -8,6 +8,7 @@
   * [NO.4 Arduino](Adventure%20Map🗺️/NO.4%20Arduino.md)
   * [NO.5 3D printer](Adventure%20Map🗺️/NO.5%203D%20printer.md)   
   * [NO.6 laser cutting](Adventure%20Map🗺️/NO.6%20laser%20cutting.md)
+  * [NO.7 IoT](Adventure%20Map🗺️/NO.7%20IoT.md)
 * **Final project📜**
   * [基本介绍](Final%20project📜/基本介绍.md)
   * [前期方案](Final%20project📜/前期方案.md)
