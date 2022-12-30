@@ -23,10 +23,10 @@
 <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212211405100.webp"/>
 
 为了创建日历，此处设计了一个 2D面板，每个LED都有对应切口，还有一个按钮用于单个按钮。面板使用一个简单的2D CAD包——AutoCAD LT 2022，后期使用LightBurn 软件来实现激光切割机的兼容。  
-<div align=left><img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212211405126.webp" width = 48%/> <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212211405125.webp" width = 50%/> </div>
+<div align=left><img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212211405126.webp" width = 51%/> <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212211405125.webp" width = 48%/> </div>
 
 激光切割一块胶合板后，是电路的设计。这些组件包括一个Arduino Mega、25 个 LED 和直接由 Mega 的 GPIO 引脚驱动的电阻器、一个从其嵌入式 ROM 发出音乐的 ISD1760 模块，以及一个 3W 扬声器。 其电路组成与焊接示意如下：  
-<div align=left><img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212211409267.webp" width = 47%/> <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212211405710.jpeg" width = 51%/> </div>
+<div align=left><img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212211409267.webp" width = 47%/> <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202212211405710.jpeg" width = 52%/> </div>
 
 最后，涉及的代码如下：
 <pre> 
