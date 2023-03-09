@@ -29,3 +29,21 @@ NodeMCU,是一个开源的物联网平台。 它使用Lua脚本语言编程。�
 #### homekit
 HomeKit，是苹果2014年发布的智能家居平台。支持网关、智能音箱、各类传感器的连接和使用，适用于家居、安防、娱乐等多种场景。   
 [HomeKit官网](https://www.apple.com.cn/home-app/accessories/)
+
+
+### IoT实践
+我们使用esp8266模块（一个类似arduino的模块）和阿里云平台进行实践，具体操作参考[以下网址](https://www.nexmaker.com/doc/9IOT/NodeMCUESP8266_ALiYun.html)。
+
+在实践过程中发现几个问题：
+- 首先是阿里云界面调整，带来一定的理解难度。注意，必须先开通“公共实例”模块才能进入产品界面。
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202303091948352.png" width = 44%/> <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202303091948144.png" width = 54%/> </div>
+
+- 其次，在arduino IDE文件编辑时，忘记确认wifi名的大小写问题，导致联网失败。检查后成功。  
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202303091950785.png" width = 60%/> </div>   
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202303091950382.png" width = 60%/> </div>   
+
+- 最后，联网成功后控制界面仍然没有对应模块，是因为“功能定义”栏下的功能尚未发布。
+<div align=center>  <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202303091951249.png" width = 33%/> <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202303091951224.png" width = 32%/> <img src="https://raw.githubusercontent.com/HOY78778/picstore/main/img/202303091951226.png" width = 33%/>  </div>
+
+成功后，演示视频：
+<iframe width="315" height="560" src="//player.bilibili.com/player.html?aid=695629425&bvid=BV1g24y1b7Xq&cid=1045864752&page=1" frameborder="0" allowfullscreen></iframe>
